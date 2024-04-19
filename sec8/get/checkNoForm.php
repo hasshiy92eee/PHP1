@@ -8,11 +8,10 @@
 </head>
 <body>
   <div>
-    <form action="calc.php" method="post">
+    <form method="GET" action="checkNo.php">
       <ul>
-        <li><label>単価：<input type="text" name="tanka"></label></li>
-        <li><label>個数：<input type="text" name="kosu"></label></li>
-        <li><input type="submit" name="計算する"></li>
+        <li><label>番号：<input type="number" name="no"</label></li>
+        <li><input type="submit" value="調べる"></li>
       </ul>
     </form>
   </div>

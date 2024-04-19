@@ -9,11 +9,11 @@
 <body>
   <div>
     <?php
-    $tanka = $_POST['tanka'];
-    $kosu = $_POST['kosu'];
-    // $price = $tanka * $kosu;
-    // $tanka = number_format($tanka);
-    // $price = number_format($price);
+    $tanka = $_GET['tanka'];
+    $kosu = $_GET['kosu'];
+    $price = $tanka * $kosu;
+    $tanka = number_format($tanka);
+    $price = number_format($price);
     echo "単価{$tanka}円 ✕ {$kosu}個は {$price}円です。";
     ?>
   </div>

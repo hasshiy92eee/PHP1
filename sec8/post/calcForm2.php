@@ -8,14 +8,7 @@
 </head>
 <body>
   <div>
-    <?php
-    $tanka = $_POST['tanka'];
-    $kosu = $_POST['kosu'];
-    // $price = $tanka * $kosu;
-    // $tanka = number_format($tanka);
-    // $price = number_format($price);
-    echo "単価{$tanka}円 ✕ {$kosu}個は {$price}円です。";
-    ?>
+    <a href="calc2.php?tanka=3000&kosu=2">計算する</a>
   </div>
 </body>
 </html>
