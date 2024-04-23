@@ -1,7 +1,7 @@
 <?php
 require_once('../common/header.php');
 require_once('../lib/util.php');
-cken_check();
+cken_check($_POST);
 $errors = [];
 ?>
 <?php
